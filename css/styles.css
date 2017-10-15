@@ -93,8 +93,6 @@ h1 {
 	float: left;
 	margin: 0 10px;
 	letter-spacing: 1px;
-
-
 }
 
 header nav {
@@ -224,32 +222,8 @@ body {
 	background-color: #C6C6C6;
 }
 
-.profile-photo {
+li {
 	list-style: none;
-	max-height: 280px;
-	max-width: 280px;
-}
-
-.portrait-block {
-	display: inline-block;
-	background-color: white;
-}
-
-.skills {
-	background-color: grey;
-	color: white;
-	border-radius: 5px;
-	margin: 5px;
-	display: inline-block;
-	padding: 5px;
-	font-size: 12px;
-}
-
-.contact {
-	background-color: yellow;
-	color: black;
-	border-radius: 3px;
-	padding: 5px 65px;
 }
 
 ul {
@@ -257,6 +231,50 @@ ul {
 	margin: 0;
 }
 
-li {
+nav a:hover {
+	background-color: darkgrey;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+.profile-photo {
 	list-style: none;
+	max-width: 90%;
+	margin: 0 auto;
+}
+
+
+.skills {
+	background-color: grey;
+	color: white;
+	border-radius: 7px;
+	padding: 5px 12px;
+	font-size: 12px;
+	display: inline-block;
+}
+
+.portrait li {
+	display: inline-block;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.contact {
+	background-color: yellow;
+	color: black;
+	border-radius: 3px;
+	padding: 5px 65px;
+	width: 90%;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.portrait ul {
+	display: inline-block;
+	background-color: white;
+	width: 24.5%;
+	max-width: 90%;
+}
+
+.portrait-block h2 {
+	padding-top: 10px;
 }
