@@ -1,0 +1,261 @@
+/*******************
+  BASE SETUP
+*******************/
+
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+.clearfix:before,
+.clearfix:after {
+    content: " ";
+    display: table;
+}
+
+.clearfix:after {
+    clear: both;
+}
+
+.container {
+	margin: 0 auto;
+	width: 95%;
+}
+
+/*******************
+  GENERAL STYLES
+*******************/
+
+a { 
+text-decoration: none;
+}
+
+body {
+	background-color: #C6C6C6;
+}
+
+.cta {
+	color: #000;
+	font-size: 21px;
+	display: block;
+	text-align: center;
+	border-radius: 5px;
+	padding: 10px 0;
+}
+
+.cta-yellow {
+	background-color: #FFF653;
+	border-bottom: 3px solid #CEC441;
+}
+
+.cta-grey {
+	background-color: #C6C6C6;
+	border-bottom: 3px solid #999;
+}
+
+
+
+
+/*******************
+  FONT SETUP
+*******************/
+
+body {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+header li:nth-child(n+3) a {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+
+
+a {
+	font-family: 'Oswald', sans-serif;
+	text-transform: uppercase;
+}
+
+h1,
+.teasers-block h4,
+.tagline h2 {
+	font-family: 'Merriweather', serif;
+}
+
+
+/*******************
+  HEADER STYLES
+*******************/
+
+header {
+	background-color: black;
+	border-bottom: 5px solid #FFF653;
+	color: #FFF653;
+	padding: 20px 0;
+}
+
+h1 {
+	font-size: 30px;
+	float: left;
+	margin: 0 10px;
+	letter-spacing: 1px;
+
+
+}
+
+header nav {
+	float: right;
+}
+
+header li {
+	display: inline-block;
+	margin: 8px;
+}
+
+header a {
+	color: #FFF;
+}
+
+/*******************
+  STRAPLINE STYLES
+*******************/
+
+.tagline {
+	background-color: #AAAAAA;
+	text-align: center;
+	padding: 20px 0;
+}
+
+.tagline h2 {
+	font-size: 30px;
+	color: yellow;
+}
+
+del {
+	color: #999;
+}
+
+ins {
+	text-decoration: none;
+}
+
+/*******************
+  INTRO STYLES
+*******************/
+
+.intro {
+	background-image: url(../images/coworking.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+	padding: 30px 0;
+}
+
+
+.box {
+	background-color: rgba(255,255,255,0.8);
+	width: 400px;
+	margin-left: auto;
+	padding: 30px;
+	box-shadow: 0 0 5px rgba(0,0,0,0.5)
+}
+
+.box h3 {
+	margin: 0;
+	font-family: 'Merriweather', serif;
+	padding: 10px 0;
+	font-size: 20px;
+}
+
+.box p {
+	line-height: 1.7;
+}
+
+
+
+/*******************
+  TEASER STYLES
+*******************/
+
+.teasers ul {
+	margin: 0;
+	padding: 0;
+}
+
+.teasers {
+	padding: 20px 0;
+}
+
+.teasers-block {
+	width: 33.333333%;
+	float: left;
+	list-style: none;
+	padding: 20px;
+	border-right: 1px solid #C6C6C6;
+}
+
+.teasers-block:last-child {
+	border-right: none;
+}
+
+.teasers-block h4 {
+	margin: 0;
+}
+
+.teasers-block p {
+	line-height: 1.6;
+	margin-top: 12px;
+	padding-bottom: 10px;
+}
+
+
+/*******************
+  FOOTER STYLES
+********************/
+
+footer {
+	background-color: #000;
+	color: #FFF;
+	padding: 20px 0;
+}
+
+/*******************
+  DEVELOPERS PAGE
+********************/
+
+/*******************
+  POTRAIT STYLES
+********************/
+
+.profile-photo {
+	list-style: none;
+	max-height: 280px;
+	max-width: 280px;
+}
+
+.portrait-block {
+	display: inline-block;
+	background-color: white;
+}
+
+.skills {
+	background-color: grey;
+	color: white;
+	border-radius: 5px;
+	margin: 5px;
+	display: inline-block;
+	padding: 5px;
+	font-size: 12px;
+}
+
+.contact {
+	background-color: yellow;
+	color: black;
+	border-radius: 3px;
+	padding: 5px 65px;
+}
+
+ul {
+	padding: 0;
+	margin: 0;
+}
+
+li {
+	list-style: none;
+}
