@@ -29,9 +29,6 @@ a {
 text-decoration: none;
 }
 
-body {
-	background-color: #C6C6C6;
-}
 
 .cta {
 	color: #000;
@@ -121,11 +118,9 @@ header a {
 	background-color: #AAAAAA;
 	text-align: center;
 	padding: 20px 0;
-}
-
-.tagline h2 {
-	font-size: 30px;
-	color: yellow;
+	font-size: 22px;
+	font-style: italic;
+	font-family: 'Merriweather', serif
 }
 
 del {
@@ -134,6 +129,7 @@ del {
 
 ins {
 	text-decoration: none;
+	border-bottom: 3px solid #FFF653;
 }
 
 /*******************
@@ -180,6 +176,7 @@ ins {
 
 .teasers {
 	padding: 20px 0;
+	background-color: white;
 }
 
 .teasers-block {
@@ -222,6 +219,10 @@ footer {
 /*******************
   POTRAIT STYLES
 ********************/
+
+body {
+	background-color: #C6C6C6;
+}
 
 .profile-photo {
 	list-style: none;
