@@ -240,48 +240,45 @@ nav a:hover {
 	list-style: none;
 	max-width: 90%;
 	margin: 0 auto;
+	display: inline-block;
 }
 
 
-.skills {
-	background-color: grey;
+.skill-list {
 	color: white;
 	border-radius: 7px;
 	padding: 5px 12px;
 	font-size: 12px;
+	display: inline-block;
+	background-color: #696969;
+	text-align: left;
 }
 
-.portrait li {
+/*.portrait li {
 	display: inline-block;
 	margin-top: 10px;
 	margin-bottom: 20px;
+}*/
+
+.cta-small {
+	width: 50%;
 }
 
-.contact {
-	background-color: yellow;
-	color: black;
-	border-radius: 3px;
-	padding: 5px 95px;
-	width: 90%;
-	box-shadow: 0 0 5px rgba(0,0,0,0.5)
+.portrait-block {
+	display: inline-block;
+	background-color: white;
+	width: 23.5%;
+	max-width: 90%;
 }
 
 .portrait ul {
-	display: inline-block;
-	background-color: white;
-	width: 24.5%;
-	max-width: 90%;
-<<<<<<< HEAD
+	padding-left: 0;
+	margin-bottom: 0;
 }
 
-.portrait-block h2 {
-	padding-top: 10px;
-}
-=======
-}
+/*.portrait ul {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+}*/
 
-.portrait-block h2 {
-	padding-top: 10px;
-}
-
->>>>>>> master
